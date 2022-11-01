@@ -21,13 +21,21 @@ function App() {
       date:(new Date('2020','11','10')),
       title:"Quaterly Subscription",
       amount:"1456.60"
+    },
+    {
+      id:"4",
+      date:(new Date('2019','12','10')),
+      title:"half-Quarter Subscription",
+      amount:"256776.60"
     }
   ]
 return (
      <div>
-        <Subscription passedDate={subscriptions[0].date.toISOString()} passedTitle={subscriptions[0].title} passedAmount={subscriptions[0].amount}/>
-        <Subscription passedDate={subscriptions[1].date.toISOString()} passedTitle={subscriptions[1].title} passedAmount={subscriptions[1].amount}/>
-        <Subscription passedDate={subscriptions[2].date.toISOString()} passedTitle={subscriptions[2].title} passedAmount={subscriptions[2].amount}/>
+        <Subscription date={subscriptions[0].date} title={subscriptions[0].title} amount={subscriptions[0].amount}/>
+        <Subscription date={subscriptions[1].date} title={subscriptions[1].title} amount={subscriptions[1].amount}/>
+        <Subscription date={subscriptions[2].date} title={subscriptions[2].title} amount={subscriptions[2].amount}/>
+        <Subscription date={subscriptions[3].date} title={subscriptions[3].title} amount={subscriptions[3].amount}/>
+
       </div>
   );
 }
