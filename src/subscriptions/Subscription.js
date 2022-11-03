@@ -9,6 +9,7 @@ const Subscription = (props) =>{
         <SubscriptionDate date={props.date}/>
         <h2 className='subscription_title'>{props.title}</h2>
         <div className='subscription_price'>{props.amount}</div>
+        <button type="button" id="changeTitleButton">Change Title</button>
         </Container>
     )
 }
