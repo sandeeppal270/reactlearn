@@ -1,14 +1,11 @@
 import './Subscription.css'
+import SubscriptionDate from './SubscriptionDate'
 function Subscription(props){
     // this is js function four using month day year in string format
-    const month=props.date.toLocaleString('default',{month:'long'});
-    const day=props.date.toLocaleString('default',{day:'2-digit'});
-    const year=props.date.getFullYear();
+   
     return(
         <div className="subscription">
-        <div>{month}</div>
-        <div>{day}</div>
-        <div>{year}</div> 
+        <SubscriptionDate date={props.date}/>
         <h2 className='subscription_title'>{props.title}</h2>
         <div className='subscription_price'>{props.amount}</div>
         </div>
