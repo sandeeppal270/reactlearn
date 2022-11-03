@@ -1,7 +1,7 @@
 import './Subscription.css'
 import SubscriptionDate from './SubscriptionDate'
-import Container from './Container'
-function Subscription(props){
+import Container from '../templates/Container'
+const Subscription = (props) =>{
     // this is js function four using month day year in string format
    
     return(
