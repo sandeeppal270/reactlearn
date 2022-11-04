@@ -1,5 +1,7 @@
 import './FormSubscription.css';
 const FormSubscription=()=>{
+    // const titleChangeHandler=()=>{
+    // }
     return (
         <form>
             <div class="new_subscription_controls">
