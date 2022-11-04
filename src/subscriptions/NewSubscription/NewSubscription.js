@@ -2,7 +2,7 @@ import './NewSubscription.css';
 import FormSubscription from './FormSubscription';
 const NewSubscription=()=>{
     return(
-    <div class='new_subscription'>
+    <div className='new_subscription'>
     <FormSubscription />
     </div>
     )
