@@ -23,7 +23,6 @@ const FormSubscription=()=>{
                <button type="submit">Add Subscription</button> 
             </div>
         </form>
-
     )
 }
 export default FormSubscription
