@@ -1,3 +1,4 @@
+import './NewSubscription.css';
 const NewSubscription=()=>{
     return
 }
