@@ -9,9 +9,9 @@ const Subscription = (props) => {
     // this is js function four using month day year in string format
 //document.getElementById('changeTitleButton').addEventListener()
     const onClickHandler= () => {
-    //title="Changed Title";
+    // title="Changed Title";
     setTitle("Changed Title")
-    console.log("On button clicked",title)
+    // console.log("On button clicked",title)
     }
 
 return(
