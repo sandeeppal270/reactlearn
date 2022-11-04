@@ -1,6 +1,7 @@
 import Subscription from './subscriptions/Subscription';
 import './App.css';
 import Container from './templates/Container';
+import NewSubscription from './subscriptions/NewSubscription/NewSubscription'
 // import React from 'react';
 
 const App = () => {
